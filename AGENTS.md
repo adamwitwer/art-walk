@@ -58,3 +58,5 @@ The existing Netlify project is `ch-art-walk-2026`, site ID `5426fb72-db6d-41e4-
 Run `npm run package` to create `dist/art-walk-netlify.zip`. Only the curated `public/` contents belong in that deployment archive. Keep `dist/`, `tmp/`, PDFs, credentials, and local hosting state out of commits. Source-only documentation changes do not need a site redeployment.
 
 Keep README setup/deployment instructions and `docs/progress.md` current. Report actual verification and any publishing blockers accurately.
+
+Use SSH for Git operations, with origin `git@github.com:adamwitwer/art-walk.git`. The user's computer has a GitHub SSH key; Git fetch/push does not depend on `gh` authentication. If this directory has no Git metadata, `bash scripts/publish-ssh.sh` initializes it against the existing remote history, validates the app, commits the curated source, and pushes without force. Sandbox DNS or Git-write restrictions are separate from authentication; report them accurately and do not continue browser-based Git publishing when SSH has been requested.

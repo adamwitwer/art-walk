@@ -1,0 +1,12 @@
+{
+  "provider": "Netlify",
+  "team": "adam-witwer",
+  "siteId": "5426fb72-db6d-41e4-8d57-2e32a99b5a55",
+  "deploymentId": "6aced89e7ddebadc9e4c5c56",
+  "method": "Netlify Drop",
+  "url": "https://ch-art-walk-2026.netlify.app",
+  "publishedAt": "2026-10-13",
+  "dashboard": "https://app.netlify.com/projects/ch-art-walk-2026/overview",
+  "sourceRepository": "https://github.com/adamwitwer/art-walk",
+  "automaticDeployments": false
+}

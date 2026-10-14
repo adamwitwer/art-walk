@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "test": "node --test",
-    "check": "node --check public/app.js && node --check public/domain.js && node --check public/sw.js && node --test",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check public/app.js && node --check public/domain.js && node --check public/sw.js && npm run test",
     "package": "node scripts/package.mjs"
   }
 }

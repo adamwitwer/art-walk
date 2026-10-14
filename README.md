@@ -42,4 +42,16 @@ Edit `public/stops.json` and run the checks. If application assets change, incre
 
 Contributor and coding-agent guidance: [AGENTS.md](AGENTS.md). Implementation and validation status: [build progress](docs/progress.md).
 
+## Git over SSH
+
+Use `git@github.com:adamwitwer/art-walk.git` as the Git remote. `gh` authentication is not required for Git operations with the computer's configured SSH key.
+
+If the local project does not yet have Git metadata, or the initial documentation still needs publishing, run from Terminal:
+
+```sh
+bash scripts/publish-ssh.sh
+```
+
+The script preserves the existing remote history and local working files, runs the checks, commits the curated source, and pushes to `main`. It does not force-push. It leaves the PDF, temporary downloads, and deployment ZIPs ignored.
+
 This is an independent guide, not an official Ch/Art product. Event updates: https://www.chevychaseart.org/art-walk-info
