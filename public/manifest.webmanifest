@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "Ch/Art Art Walk 2026",
+  "short_name": "Art Walk",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8f6f0",
+  "theme_color": "#283f34",
+  "icons": [
+    {"src":"/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}

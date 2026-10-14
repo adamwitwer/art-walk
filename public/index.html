@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#283f34">
+  <meta name="description" content="Your pocket guide to the 2026 Ch/Art Art Walk. Discover 86 artists at 35 stops in Chevy Chase, save your favorites, and find your way.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Art Walk">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/vendor/leaflet.css">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/vendor/leaflet.js" defer></script>
+  <script src="/app.js" type="module"></script>
+  <title>Ch/Art Art Walk · Your pocket guide</title>
+</head>
+<body>
+  <a class="skip-link" href="#stop-list">Skip to stops</a>
+  <header class="topbar">
+    <a href="/" class="brand"><img src="/icon.svg" alt="" width="32" height="32"><span>Ch/Art <span class="brand-light">Art Walk</span></span></a>
+    <button id="info-button" class="icon-button" aria-label="Event info and settings">i</button>
+  </header>
+  <main>
+    <section class="explore-panel" aria-label="Browse art walk stops">
+      <div class="hero">
+        <p class="eyebrow">CHEVY CHASE, DC + MARYLAND · 2026</p>
+        <h1>Art around<br>every corner<span class="sun">✳</span></h1>
+        <p class="intro">A neighborhood full of creativity.<br>A little guide to help you find it.</p>
+        <div class="event-strip"><strong>OCT 17–18</strong><span>Noon–5 pm both days</span></div>
+        <div class="hero-stats"><span><strong>35</strong> homes & studios</span><span><strong>86</strong> local artists</span><span class="free-label">Free to explore ↗</span></div>
+      </div>
+      <div class="browse-tools">
+        <div class="search-wrap"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="Artist, address, or stop number" aria-label="Search artists, addresses, or stop numbers" autocomplete="off"></div>
+        <div class="filter-row"><label class="select-wrap"><span class="sr-only">Art medium</span><select id="medium"><option value="all">All art forms</option></select></label><button id="near-me" class="quiet-button">◎ Near me</button></div>
+        <div class="filter-chips" aria-label="Stop filters"><button data-filter="all" aria-pressed="true">All stops</button><button data-filter="unvisited" aria-pressed="false">Still to see</button><button data-filter="accessible" aria-pressed="false">♿ Marked accessible</button></div>
+      </div>
+      <div class="list-heading"><h2 id="list-title">Find your next stop</h2><span id="result-count" aria-live="polite">Loading…</span></div>
+      <div id="location-status" class="small-status" role="status" hidden></div>
+      <div id="stop-list" class="stop-list" tabindex="-1"><p class="loading">Gathering the neighborhood…</p></div>
+      <p class="list-footnote">Stop numbers follow the printed guide, not a suggested route.</p>
+      <div class="progress-strip"><span id="progress-label">0 of 35 visited</span><progress id="progress" max="35" value="0" aria-label="Art walk stops visited"></progress><span id="offline-status">Preparing offline guide…</span></div>
+    </section>
+    <section class="map-panel" aria-label="Art walk map">
+      <div class="map-heading"><div><p class="eyebrow">YOUR NEIGHBORHOOD CANVAS</p><h2>A little wandering goes a long way.</h2></div><button id="fit-map" class="quiet-button">↗ Fit stops</button></div>
+      <div class="map-shell"><div id="map" aria-label="Map of art walk stops"></div><div id="map-warning" class="map-warning" role="status" hidden>Street map unavailable. Pins still work; use the list for addresses.</div><div class="map-legend"><span><i class="legend-dot"></i> Stop</span><span><i class="legend-dot saved"></i> Saved</span><span><i class="legend-dot visited"></i> Visited</span></div></div>
+      <div class="map-footer"><span id="map-status">Tap a number to meet the artists.</span><button id="map-saved" class="quiet-button" aria-pressed="false">♡ Saved only</button></div>
+    </section>
+  </main>
+  <nav class="bottom-nav" aria-label="Guide views"><button data-view="explore" aria-current="page"><span aria-hidden="true">☷</span>Explore</button><button data-view="map"><span aria-hidden="true">◇</span>Map</button><button data-view="saved"><span aria-hidden="true">♡</span>My walk <small id="saved-count">0</small></button></nav>
+  <dialog id="detail" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+  <dialog id="info" aria-labelledby="info-title">
+    <div class="dialog-header"><p class="eyebrow">GOOD TO KNOW</p><button class="icon-button" data-close="info" aria-label="Close event info">×</button></div>
+    <h2 id="info-title">Your weekend,<br>at your own pace.</h2>
+    <p><strong>October 17 & 18, 2026</strong><br>Noon–5 pm on Saturday and Sunday<br>Chevy Chase, Maryland & Washington, DC</p>
+    <p>35 homes and studios. 86 local artists. Free admission, rain or shine. Choose any starting point and visit in any order.</p>
+    <label class="settings-label" for="maps-provider">Open walking directions with</label><select id="maps-provider"><option value="apple">Apple Maps</option><option value="google">Google Maps</option></select>
+    <h3>Take the guide with you</h3><p>On iPhone, open this site in Safari, tap Share, then <strong>Add to Home Screen</strong>. Once the offline guide is ready, the stop list and artist details work without a connection. Street maps, artist websites, and directions need internet.</p>
+    <h3>Keep track as you go</h3><p>Save stops with the heart and mark them visited. Your progress stays in this browser on this device. These checkmarks are personal notes; they don’t replace the event’s physical passport stickers.</p>
+    <h3>Accessibility</h3><p>Six stops have a wheelchair symbol in the pamphlet. “Marked accessible” shows those stops. The guide doesn’t describe their specific access arrangements or the access at other stops.</p>
+    <p class="source-note">An independent pocket guide, based on the July 27, 2026 Ch/Art pamphlet. Addresses, artists, art forms, and contacts come from the PDF; pins come from the organizer’s digital map. <a href="https://www.chevychaseart.org/art-walk-info" target="_blank" rel="noopener noreferrer">Event updates from Ch/Art ↗</a></p>
+  </dialog>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <noscript><p class="noscript">Enable JavaScript to use the interactive guide. <a href="https://www.chevychaseart.org/art-walk-info">Visit the organizer’s event page.</a></p></noscript>
+</body>
+</html>

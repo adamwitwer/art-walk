@@ -1,0 +1,921 @@
+{
+  "event": {
+    "name": "Ch/Art Art Walk",
+    "year": 2026,
+    "dates": [
+      "2026-10-17",
+      "2026-10-18"
+    ],
+    "hours": "Noon–5 pm both days",
+    "timezone": "America/New_York",
+    "organizer": "https://www.chevychaseart.org/art-walk-info"
+  },
+  "source": {
+    "pamphlet": "AW26_Pamphlet_27JUL26.pdf",
+    "revision": "2026-07-27",
+    "coordinates": "https://www.google.com/maps/d/viewer?mid=1rI_Hlm5UGMQWi1DlbaBmodLwz2h4F5M"
+  },
+  "stops": [
+    {
+      "id": 1,
+      "address": "4602 North Park Ave",
+      "city": "Chevy Chase, MD",
+      "title": "Cityline Studios",
+      "accessible": false,
+      "lat": 38.9632696,
+      "lng": -77.0914373,
+      "artists": [
+        {
+          "name": "Wendy Smith",
+          "medium": "Painting",
+          "contact": "@wendy_smithartist",
+          "url": "https://www.instagram.com/wendy_smithartist/"
+        },
+        {
+          "name": "Heather Paul",
+          "medium": "Painting, Collage",
+          "contact": "@heatherpaulart",
+          "url": "https://www.instagram.com/heatherpaulart/"
+        },
+        {
+          "name": "Deborah Coffey",
+          "medium": "Mixed Media",
+          "contact": "deborah-coffey.com",
+          "url": "https://deborah-coffey.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "address": "123 Grafton St",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": true,
+      "lat": 38.9678427,
+      "lng": -77.0857349,
+      "artists": [
+        {
+          "name": "Lance Patterson",
+          "medium": "Painting, Printmaking",
+          "contact": "brushandchiselartworks.com",
+          "url": "https://brushandchiselartworks.com"
+        },
+        {
+          "name": "Eileen Sullivan",
+          "medium": "Watercolor, Graphite",
+          "contact": "eileensullivanart.com",
+          "url": "https://eileensullivanart.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "address": "4009 Oliver St",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9669863,
+      "lng": -77.0836585,
+      "artists": [
+        {
+          "name": "Doris Ross",
+          "medium": "Fused Glass",
+          "contact": "vitrifications.com",
+          "url": "https://vitrifications.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "address": "4428 Ridge St",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9777108,
+      "lng": -77.0894243,
+      "artists": [
+        {
+          "name": "Dee Harris",
+          "medium": "Ceramics",
+          "contact": "@ewergirl_ceramics",
+          "url": "https://www.instagram.com/ewergirl_ceramics/"
+        },
+        {
+          "name": "Michal Avni",
+          "medium": "Beaded Jewelry",
+          "contact": "avnidesignsdc@gmail.com",
+          "url": "mailto:avnidesignsdc@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "address": "6907 Oakridge Ave",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9797208,
+      "lng": -77.0852957,
+      "artists": [
+        {
+          "name": "Ronni Jolles",
+          "medium": "Layered Paper",
+          "contact": "ronnijolles.com",
+          "url": "https://ronnijolles.com"
+        },
+        {
+          "name": "Limor Dekel",
+          "medium": "Mixed Media",
+          "contact": "limordekel.com",
+          "url": "https://limordekel.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "address": "7200 Meadow Lane",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9822433,
+      "lng": -77.0820993,
+      "artists": [
+        {
+          "name": "Katie Lawson",
+          "medium": "Painting, Drawing",
+          "contact": "katiestudios.com",
+          "url": "https://katiestudios.com"
+        },
+        {
+          "name": "Lisa Kowalewski",
+          "medium": "Porcelain Pottery",
+          "contact": "@littlebeastceramics",
+          "url": "https://www.instagram.com/littlebeastceramics/"
+        },
+        {
+          "name": "Hilary Schenker",
+          "medium": "Painting",
+          "contact": "hilaryschenker.com",
+          "url": "https://hilaryschenker.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "address": "3815 Williams Lane",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9839703,
+      "lng": -77.0761063,
+      "artists": [
+        {
+          "name": "Linda Sussman",
+          "medium": "Button Jewelry",
+          "contact": "creations4acause18@gmail.com",
+          "url": "mailto:creations4acause18@gmail.com"
+        },
+        {
+          "name": "Pamela Joy Trow",
+          "medium": "Mixed Media, Digital",
+          "contact": "pamelajoytrow.com",
+          "url": "https://pamelajoytrow.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "address": "3518 Thornapple St",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": true,
+      "lat": 38.982864,
+      "lng": -77.0712431,
+      "artists": [
+        {
+          "name": "Alice Joseph",
+          "medium": "Contemporary Jewelry",
+          "contact": "alicejoseph.com",
+          "url": "https://alicejoseph.com"
+        },
+        {
+          "name": "Allen Hirsh",
+          "medium": "Generative Art",
+          "contact": "artist@theabstractgardener.com",
+          "url": "mailto:artist@theabstractgardener.com"
+        },
+        {
+          "name": "Nancy Malan",
+          "medium": "Hardwood Birdhouses",
+          "contact": "26nancy.malan@gmail.com",
+          "url": "mailto:26nancy.malan@gmail.com"
+        },
+        {
+          "name": "Amy Rice",
+          "medium": "Mixed Media",
+          "contact": "@amyriceimages",
+          "url": "https://www.instagram.com/amyriceimages/"
+        },
+        {
+          "name": "Jennifer Howard",
+          "medium": "Painting",
+          "contact": "jenniferhowardartist.com",
+          "url": "https://jenniferhowardartist.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "address": "7003 Georgia St",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9801525,
+      "lng": -77.0717481,
+      "artists": [
+        {
+          "name": "Kirsty Little",
+          "medium": "Wire Sculpture",
+          "contact": "@kirstylittlejoy",
+          "url": "https://www.instagram.com/kirstylittlejoy/"
+        },
+        {
+          "name": "Veronique Legot",
+          "medium": "Assemblage, Painting",
+          "contact": "@april_in_november_art",
+          "url": "https://www.instagram.com/april_in_november_art/"
+        },
+        {
+          "name": "Jack Hornady",
+          "medium": "Painting",
+          "contact": "jackhornady.com",
+          "url": "https://jackhornady.com"
+        },
+        {
+          "name": "Sandra Zacharia",
+          "medium": "Jewelry",
+          "contact": "sandrazachariajeweler.com",
+          "url": "https://sandrazachariajeweler.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "address": "3520 Bradley Lane",
+      "city": "Chevy Chase, MD",
+      "title": null,
+      "accessible": true,
+      "lat": 38.9763405,
+      "lng": -77.0712949,
+      "artists": [
+        {
+          "name": "Suzanne Wright",
+          "medium": "Restorative Media",
+          "contact": "artwell4life.com",
+          "url": "https://artwell4life.com"
+        },
+        {
+          "name": "Erica Weiss",
+          "medium": "Ceramics",
+          "contact": "Clay2table.com",
+          "url": "https://Clay2table.com"
+        },
+        {
+          "name": "Becky McFall",
+          "medium": "Mixed Media",
+          "contact": "artunfiltered.com",
+          "url": "https://artunfiltered.com"
+        },
+        {
+          "name": "Susan Fattig",
+          "medium": "Painting, Collage",
+          "contact": "sefesq@gmail.com",
+          "url": "mailto:sefesq@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "address": "3387 Stuyvesant Pl NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": true,
+      "lat": 38.9722507,
+      "lng": -77.0701645,
+      "artists": [
+        {
+          "name": "Kathleen Zeifang",
+          "medium": "Painting",
+          "contact": "khzart.com",
+          "url": "https://khzart.com"
+        },
+        {
+          "name": "Anne Shields",
+          "medium": "Pastel",
+          "contact": "ennashields@hotmail.com",
+          "url": "mailto:ennashields@hotmail.com"
+        },
+        {
+          "name": "Federica Giove",
+          "medium": "Painting",
+          "contact": "@pegu_painter_italy",
+          "url": "https://www.instagram.com/pegu_painter_italy/"
+        },
+        {
+          "name": "Sonita Singh",
+          "medium": "Painting",
+          "contact": "sonitaksingh@yahoo.com",
+          "url": "mailto:sonitaksingh@yahoo.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "address": "6451 Barnaby St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9747426,
+      "lng": -77.0629659,
+      "artists": [
+        {
+          "name": "Jennifer Bertsch",
+          "medium": "Jewelry",
+          "contact": "@bluejmakes",
+          "url": "https://www.instagram.com/bluejmakes/"
+        },
+        {
+          "name": "Kirsten Scott",
+          "medium": "Painting",
+          "contact": "kbscott@me.com",
+          "url": "mailto:kbscott@me.com"
+        },
+        {
+          "name": "Mia Dentoni",
+          "medium": "Painting",
+          "contact": "@miadentoni_art",
+          "url": "https://www.instagram.com/miadentoni_art/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "address": "6624 Barnaby St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": true,
+      "lat": 38.9767031,
+      "lng": -77.0613306,
+      "artists": [
+        {
+          "name": "Kendra Morrison",
+          "medium": "B&W Photography",
+          "contact": "@kpmphotoart",
+          "url": "https://www.instagram.com/kpmphotoart/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "address": "6605 31st St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9756417,
+      "lng": -77.0558806,
+      "artists": [
+        {
+          "name": "Scott Wiskoski",
+          "medium": "Painting",
+          "contact": "scottwiskoski.com",
+          "url": "https://scottwiskoski.com"
+        },
+        {
+          "name": "Joan Danoff",
+          "medium": "Jewelry",
+          "contact": "starlandbyhand.com",
+          "url": "https://starlandbyhand.com"
+        },
+        {
+          "name": "Susan Dankoff",
+          "medium": "Painting",
+          "contact": "@susandankoffart",
+          "url": "https://www.instagram.com/susandankoffart/"
+        },
+        {
+          "name": "Karim Bouabdelli",
+          "medium": "Painting",
+          "contact": "@Karimbouabdelli",
+          "url": "https://www.instagram.com/Karimbouabdelli/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "address": "6451 31st St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9753127,
+      "lng": -77.0564658,
+      "artists": [
+        {
+          "name": "Sardar Aziz",
+          "medium": "Painting, Portraiture",
+          "contact": "@5irdar",
+          "url": "https://www.instagram.com/5irdar/"
+        },
+        {
+          "name": "Karen Philipps",
+          "medium": "Jewelry",
+          "contact": "@rejewelvenatekp",
+          "url": "https://www.instagram.com/rejewelvenatekp/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "address": "6154 31st Pl NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9724088,
+      "lng": -77.0623822,
+      "artists": [
+        {
+          "name": "Jacki Yamin",
+          "medium": "Painting",
+          "contact": "jackiyaminart.squarespace.com",
+          "url": "https://jackiyaminart.squarespace.com"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "address": "6211 33rd St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9717624,
+      "lng": -77.0661079,
+      "artists": [
+        {
+          "name": "Ulrike Kaiser",
+          "medium": "Painting",
+          "contact": "ulrikekaiser.at",
+          "url": "https://ulrikekaiser.at"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "address": "3302 Rittenhouse St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9694796,
+      "lng": -77.0670357,
+      "artists": [
+        {
+          "name": "Jan Solomon",
+          "medium": "Jewelry",
+          "contact": "jansolomonjewelry@gmail.com",
+          "url": "mailto:jansolomonjewelry@gmail.com"
+        },
+        {
+          "name": "Leigh Coriale",
+          "medium": "Painting",
+          "contact": "corialegallery@gmail.com",
+          "url": "mailto:corialegallery@gmail.com"
+        },
+        {
+          "name": "Maria-Victoria Checa",
+          "medium": "Painting",
+          "contact": "mvchecaart.com",
+          "url": "https://mvchecaart.com"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "address": "5901 31st Pl NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9678341,
+      "lng": -77.0628112,
+      "artists": [
+        {
+          "name": "Carrie Baroody",
+          "medium": "Steel Sculpture",
+          "contact": "carriebaroody@gmail.com",
+          "url": "mailto:carriebaroody@gmail.com"
+        },
+        {
+          "name": "Carl Johnson",
+          "medium": "Woven Sculpture",
+          "contact": "@carljohnsonstudio",
+          "url": "https://www.instagram.com/carljohnsonstudio/"
+        },
+        {
+          "name": "Danielle Feuillan",
+          "medium": "Stained Glass",
+          "contact": "dfeuillan@gmail.com",
+          "url": "mailto:dfeuillan@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "address": "3154 Patterson St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9673864,
+      "lng": -77.0632386,
+      "artists": [
+        {
+          "name": "Bernard Tabourier",
+          "medium": "Painting",
+          "contact": "@bernartist_75",
+          "url": "https://www.instagram.com/bernartist_75/"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "address": "5723 Nebraska Ave NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9664075,
+      "lng": -77.061171,
+      "artists": [
+        {
+          "name": "Thierry Rosenheck",
+          "medium": "Photography, Sculpture",
+          "contact": "thierryrosenheck.com",
+          "url": "https://thierryrosenheck.com"
+        },
+        {
+          "name": "Rebecca Hirsh",
+          "medium": "Painting, Collage",
+          "contact": "cooperandhirshart.com",
+          "url": "https://cooperandhirshart.com"
+        },
+        {
+          "name": "Andrew Alter",
+          "medium": "Painting",
+          "contact": "@iwaa_art",
+          "url": "https://www.instagram.com/iwaa_art/"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "address": "5439 32nd St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9627809,
+      "lng": -77.0636693,
+      "artists": [
+        {
+          "name": "Pam Gregory",
+          "medium": "Mixed Media",
+          "contact": "@PamGregoryDC_Art",
+          "url": "https://www.instagram.com/PamGregoryDC_Art/"
+        },
+        {
+          "name": "Marcie Wolf-Hubbard",
+          "medium": "Painting, Encaustic",
+          "contact": "marciewolfhubbard.com",
+          "url": "https://marciewolfhubbard.com"
+        },
+        {
+          "name": "Dasha Pomeranz",
+          "medium": "Fashion",
+          "contact": "thethreadsofmigration.com",
+          "url": "https://thethreadsofmigration.com"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "address": "5322 Broad Branch Rd NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9595483,
+      "lng": -77.0659249,
+      "artists": [
+        {
+          "name": "Margaret Rose Hahn",
+          "medium": "Colored Pencils",
+          "contact": "margaretrosehahn.com",
+          "url": "https://margaretrosehahn.com"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "address": "5326 Nebraska Ave NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9601712,
+      "lng": -77.0672635,
+      "artists": [
+        {
+          "name": "Sofia Gawer",
+          "medium": "Mixed Media",
+          "contact": "sofiagawer.com",
+          "url": "https://sofiagawer.com"
+        },
+        {
+          "name": "Shalini Saksena",
+          "medium": "Ceramics",
+          "contact": "@shals_clay_play",
+          "url": "https://www.instagram.com/shals_clay_play/"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "address": "3412 Livingston St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9628818,
+      "lng": -77.0680109,
+      "artists": [
+        {
+          "name": "Kamael Mishra",
+          "medium": "Painting",
+          "contact": "kamaelmishra.com",
+          "url": "https://kamaelmishra.com"
+        },
+        {
+          "name": "Erin Joshi",
+          "medium": "Painting",
+          "contact": "@art_by_erinj",
+          "url": "https://www.instagram.com/art_by_erinj/"
+        },
+        {
+          "name": "Hoda Khouri",
+          "medium": "Jewelry",
+          "contact": "etsy.com/shop/bellinats",
+          "url": "https://etsy.com/shop/bellinats"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "address": "5525 Nevada Ave NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9642836,
+      "lng": -77.0698574,
+      "artists": [
+        {
+          "name": "Merrilee Harrigan",
+          "medium": "Jewelry, Glass",
+          "contact": "joyofglass.com",
+          "url": "https://joyofglass.com"
+        },
+        {
+          "name": "Mark Leatherman",
+          "medium": "Photography",
+          "contact": "@leathermanlandscapes",
+          "url": "https://www.instagram.com/leathermanlandscapes/"
+        },
+        {
+          "name": "Karen LeBan",
+          "medium": "Pottery",
+          "contact": "karen.leban@gmail.com",
+          "url": "mailto:karen.leban@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "address": "5441 Chevy Chase Pkwy NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9625122,
+      "lng": -77.0710581,
+      "artists": [
+        {
+          "name": "Ruth Marcus",
+          "medium": "Painting",
+          "contact": "ruthmarcusartstudio.com",
+          "url": "https://ruthmarcusartstudio.com"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "address": "3754 Jenifer St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9588381,
+      "lng": -77.0740784,
+      "artists": [
+        {
+          "name": "Vivian Cavalieri",
+          "medium": "Mixed Media",
+          "contact": "viviancavalieri.com",
+          "url": "https://viviancavalieri.com"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "address": "3906 Legation St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9618578,
+      "lng": -77.0780072,
+      "artists": [
+        {
+          "name": "Danielle Bensky",
+          "medium": "Painting, Sculpture",
+          "contact": "benskydaniellevisualworld.com",
+          "url": "https://benskydaniellevisualworld.com"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "address": "3922 Livingston St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9629213,
+      "lng": -77.078557,
+      "artists": [
+        {
+          "name": "Kimoy Lallement",
+          "medium": "Painting",
+          "contact": "@artitecturebykimoy",
+          "url": "https://www.instagram.com/artitecturebykimoy/"
+        },
+        {
+          "name": "JB Lallement",
+          "medium": "Painting",
+          "contact": "@jblallement_art",
+          "url": "https://www.instagram.com/jblallement_art/"
+        },
+        {
+          "name": "Bruce Abrams",
+          "medium": "Painting, Prints",
+          "contact": "@bruceabrams.art",
+          "url": "https://www.instagram.com/bruceabrams.art/"
+        },
+        {
+          "name": "Heather O’Donovan",
+          "medium": "Painting",
+          "contact": "@studiomaisonart",
+          "url": "https://www.instagram.com/studiomaisonart/"
+        },
+        {
+          "name": "Carol Samour",
+          "medium": "Beaded Jewelry",
+          "contact": "@inspiredbythebead",
+          "url": "https://www.instagram.com/inspiredbythebead/"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "address": "3932 Morrison St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9637984,
+      "lng": -77.0792379,
+      "artists": [
+        {
+          "name": "Diane Thompson",
+          "medium": "Quilts",
+          "contact": "detincc@aol.com",
+          "url": "mailto:detincc@aol.com"
+        },
+        {
+          "name": "Cara Jablon",
+          "medium": "Jewelry",
+          "contact": "carascreationsdc.com",
+          "url": "https://carascreationsdc.com"
+        },
+        {
+          "name": "Patricia Choquette",
+          "medium": "Painting",
+          "contact": "patriciachoquette.com",
+          "url": "https://patriciachoquette.com"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "address": "3902 Northampton St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": true,
+      "lat": 38.9656234,
+      "lng": -77.0774893,
+      "artists": [
+        {
+          "name": "Carol Newmyer",
+          "medium": "Sculpture",
+          "contact": "carolnewmyer.com",
+          "url": "https://carolnewmyer.com"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "address": "5824 Chevy Chase Pkwy NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9673237,
+      "lng": -77.0747266,
+      "artists": [
+        {
+          "name": "Leslie Harris",
+          "medium": "Painting, Prints",
+          "contact": "leslieharris.art",
+          "url": "https://leslieharris.art"
+        },
+        {
+          "name": "Jenny Wilson",
+          "medium": "Painting, Collage",
+          "contact": "jennywilsonjazzart.com",
+          "url": "https://jennywilsonjazzart.com"
+        },
+        {
+          "name": "Rachael Rice",
+          "medium": "Jewelry, Paintings",
+          "contact": "rachaelallisondesigns.com",
+          "url": "https://rachaelallisondesigns.com"
+        },
+        {
+          "name": "Anne Turner",
+          "medium": "Ceramics",
+          "contact": "amhutu@gmail.com",
+          "url": "mailto:amhutu@gmail.com"
+        },
+        {
+          "name": "Laura Summer",
+          "medium": "Jewelry",
+          "contact": "laurasummerjewelry.com",
+          "url": "https://laurasummerjewelry.com"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "address": "3545 Quesada St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9688835,
+      "lng": -77.0719258,
+      "artists": [
+        {
+          "name": "Kanika Sircar",
+          "medium": "Ceramics, Mixed Media",
+          "contact": "@kanikasircar",
+          "url": "https://www.instagram.com/kanikasircar/"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "address": "3502 Quesada St NW",
+      "city": "Washington, DC",
+      "title": null,
+      "accessible": false,
+      "lat": 38.9684554,
+      "lng": -77.0708895,
+      "artists": [
+        {
+          "name": "Frank Van Riper",
+          "medium": "Photography, Books",
+          "contact": "gvrphoto.shop",
+          "url": "https://gvrphoto.shop"
+        },
+        {
+          "name": "Judith Goodman",
+          "medium": "Assemblage, Sculpture",
+          "contact": "judithgoodmansculpture.com",
+          "url": "https://judithgoodmansculpture.com"
+        }
+      ]
+    }
+  ]
+}
