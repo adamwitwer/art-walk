@@ -1,0 +1,8 @@
+node_modules/
+tmp/
+dist/
+.DS_Store
+.netlify/
+*.pdf
+*.zip
+*.log
