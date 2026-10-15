@@ -7,6 +7,7 @@ A mobile pocket guide to the October 17–18, 2026 Chevy Chase art walk: **35 ho
 - Search by artist, art form, street, or stop number (use `#8` for an exact stop).
 - Tap numbered pins or “On map” to open a stop's artist details.
 - Open walking directions in Apple Maps, or choose Google Maps in Info.
+- Choose Default, Larger (+20%), or Largest (+40%) text in Info. The change applies immediately and stays saved on this device.
 - Save stops to My walk and track visits on this device.
 - Optionally sort by proximity with Near me; location is held only in memory.
 - Filter the six stops marked accessible in the pamphlet.

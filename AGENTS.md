@@ -28,7 +28,8 @@ Prefer small changes within this structure. Do not add a framework, build pipeli
 
 - Prioritize phone use while walking: readable text, easy-to-tap controls, safe-area spacing, and clear navigation between list, map, and saved stops.
 - Maintain keyboard support, dialog focus behavior, accessible labels, visible focus states, and reduced-motion support.
-- Saved and visited progress is stored in this browser on this device. Handle unavailable or corrupt storage without breaking the guide.
+- Saved and visited progress, map provider, and text size are stored in this browser on this device. Handle unavailable or corrupt storage without breaking the guide. Preserve existing progress when adding preferences.
+- Keep all three text sizes usable on narrow screens. Reading text scales with the root font size; decorative title and icon sizes stay independent. Allow controls and text to wrap rather than clipping enlarged content.
 - Location is optional, requested only when the user chooses Near me, and held in memory. Do not store, transmit to an app backend, or log it.
 - Distances are straight-line estimates, not walking routes. Actual directions open Apple Maps by default; Google Maps is a user-selectable alternative.
 - A wheelchair symbol means marked accessible in the pamphlet. Do not imply other stops are inaccessible or invent access arrangements.

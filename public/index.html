@@ -53,6 +53,15 @@
   <dialog id="info" aria-labelledby="info-title">
     <div class="dialog-header"><p class="eyebrow">GOOD TO KNOW</p><button class="icon-button" data-close="info" aria-label="Close event info">×</button></div>
     <h2 id="info-title">Your weekend,<br>at your own pace.</h2>
+    <fieldset id="text-size" class="text-size-setting" aria-describedby="text-size-hint">
+      <legend>Text size</legend>
+      <div class="text-size-options">
+        <label><input type="radio" name="text-size" value="default" checked><span>Default</span></label>
+        <label><input type="radio" name="text-size" value="larger"><span>Larger</span></label>
+        <label><input type="radio" name="text-size" value="largest"><span>Largest</span></label>
+      </div>
+      <p id="text-size-hint">Choose what’s comfortable. Applies across the guide and stays saved on this device.</p>
+    </fieldset>
     <p><strong>October 17 & 18, 2026</strong><br>Noon–5 pm on Saturday and Sunday<br>Chevy Chase, Maryland & Washington, DC</p>
     <p>35 homes and studios. 86 local artists. Free admission, rain or shine. Choose any starting point and visit in any order.</p>
     <label class="settings-label" for="maps-provider">Open walking directions with</label><select id="maps-provider"><option value="apple">Apple Maps</option><option value="google">Google Maps</option></select>

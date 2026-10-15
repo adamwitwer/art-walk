@@ -8,6 +8,11 @@ let progress = readProgress(storage);
 let stops = [], view = 'explore', filter = 'all', selected = null, location = null, map, markers, userMarker, savedMap = false;
 let toastTimeout;
 document.body.dataset.view = view;
+function applyTextSize() {
+  document.documentElement.dataset.textSize = progress.textSize;
+  $$('#text-size input').forEach(input => { input.checked = input.value === progress.textSize; });
+}
+applyTextSize();
 function toast(message) {
   $('#toast').textContent = message;
   $('#toast').hidden = false;
@@ -15,8 +20,8 @@ function toast(message) {
   toastTimeout = setTimeout(() => { $('#toast').hidden = true; }, 3500);
 }
 function persist() {
-  try { storage.setItem('artwalk-2026', JSON.stringify({saved:[...progress.saved],visited:[...progress.visited],provider:progress.provider})); }
-  catch { toast('Browser storage is unavailable. Progress will last for this session only.'); }
+  try { storage.setItem('artwalk-2026', JSON.stringify({saved:[...progress.saved],visited:[...progress.visited],provider:progress.provider,textSize:progress.textSize})); }
+  catch { toast('Browser storage is unavailable. Changes will last for this session only.'); }
 }
 function filteredStops() {
   return stops.filter(s => matches(s, $('#search').value, $('#medium').value)
@@ -147,6 +152,10 @@ $('#fit-map').addEventListener('click',fitMap);
 $('#map-saved').addEventListener('click',()=>{savedMap=!savedMap;render();fitMap();if(savedMap&&!progress.saved.size)toast('Save some stops with a heart to see them here.');});
 $('#info-button').addEventListener('click',()=>{$('#maps-provider').value=progress.provider;$('#info').showModal();document.body.style.overflow='hidden';});
 $('#maps-provider').addEventListener('change',()=>{progress.provider=$('#maps-provider').value;persist();render();});
+$('#text-size').addEventListener('change',event=>{
+  progress.textSize=event.target.value;
+  applyTextSize();persist();
+});
 $('#near-me').addEventListener('click',()=>{
   if(location){location=null;if(userMarker){userMarker.remove();userMarker=null;}$('#near-me').textContent='◎ Near me';$('#location-status').hidden=true;render();fitMap();return;}
   if(!navigator.geolocation){toast('This browser does not support location.');return;}
@@ -163,7 +172,7 @@ $('#near-me').addEventListener('click',()=>{
 function networkStatus(){if(!navigator.onLine){$('#offline-status').textContent='Offline · list & saved progress available';$('#map-warning').hidden=false;}else $('#map-warning').hidden=true;}
 window.addEventListener('offline',networkStatus);
 window.addEventListener('online',()=>{offlineReady();networkStatus();});
-window.addEventListener('storage',e=>{if(e.key==='artwalk-2026'){progress=readProgress(storage);render();if($('#detail').open)renderDetail(false);}});
+window.addEventListener('storage',e=>{if(e.key==='artwalk-2026'){progress=readProgress(storage);applyTextSize();render();if($('#detail').open)renderDetail(false);}});
 async function offlineReady(){
   if(!('serviceWorker' in navigator)){ $('#offline-status').textContent='Offline guide isn’t supported in this browser';return; }
   try{

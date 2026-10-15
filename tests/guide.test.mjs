@@ -45,6 +45,17 @@ test('nearest distances are symmetric and reasonable across the neighborhood',()
   assert.ok(distanceMeters(data.stops[0],data.stops[1])>400);
   assert.ok(distanceMeters(data.stops[0],data.stops[1])<1000);
 });
+test('text size defaults safely for existing progress and restores supported preferences',()=>{
+  const stored=data=>({getItem:()=>JSON.stringify(data)});
+  for(const textSize of [undefined,null,'huge',3,'default']){
+    const p=readProgress(stored({saved:[8],visited:[2],provider:'google',textSize}));
+    assert.equal(p.textSize,'default');
+    assert.deepEqual([...p.saved],[8]);assert.deepEqual([...p.visited],[2]);assert.equal(p.provider,'google');
+  }
+  for(const textSize of ['larger','largest'])assert.equal(readProgress(stored({textSize})).textSize,textSize);
+  assert.equal(readProgress({getItem:()=>{throw Error('Unavailable');}}).textSize,'default');
+  assert.equal(readProgress({getItem:()=>'{bad'}).textSize,'default');
+});
 test('every offline asset exists and only curated files are served',()=>{
   const sw=readFileSync(new URL('../public/sw.js',import.meta.url),'utf8');
   const assets=sw.match(/const ASSETS = (\[[^;]+\])/)[1].replaceAll("'",'"');

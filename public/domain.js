@@ -33,6 +33,6 @@ export function readProgress(storage) {
   try {
     const data = JSON.parse(storage.getItem('artwalk-2026') || '{}');
     const clean = values => new Set(Array.isArray(values) ? values.filter(v => Number.isInteger(v) && v >= 1 && v <= 35) : []);
-    return {saved:clean(data.saved), visited:clean(data.visited), provider:data.provider === 'google' ? 'google' : 'apple'};
-  } catch { return {saved:new Set(), visited:new Set(), provider:'apple'}; }
+    return {saved:clean(data.saved), visited:clean(data.visited), provider:data.provider === 'google' ? 'google' : 'apple', textSize:['larger','largest'].includes(data.textSize) ? data.textSize : 'default'};
+  } catch { return {saved:new Set(), visited:new Set(), provider:'apple', textSize:'default'}; }
 }
